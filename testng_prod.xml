@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="codeTest_prod" verbose="1">
+    <parameter name="env" value="PROD" />
+    <parameter name="browserType" value="Chrome" />
+    <test name="calculator_prod">
+        <classes>
+            <class name="org.codetest.testcases.Addition"/>
+            <!--<class name="org.codetest.testcases.Subtraction"/>
+            <class name="org.codetest.testcases.Multiplication"/>
+            <class name="org.codetest.testcases.Division"/>-->
+        </classes>
+    </test>
+</suite>
