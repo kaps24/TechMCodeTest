@@ -13,7 +13,7 @@ public class BrowsersDriver {
 
         if (driver != null) return driver;
         if (browserName.equals("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\kavya\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
             return new ChromeDriver();
         } else if (browserName.equals("Edge") || browserName.equals("Ie") || browserName.equals("Safari") || browserName.equals("Firefox") || browserName.equals("Opera")) {
             throw new WebDriverException(String.format("%s browser not implemented yet", browserName));
