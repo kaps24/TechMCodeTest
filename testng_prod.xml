@@ -6,9 +6,9 @@
     <test name="calculator_prod">
         <classes>
             <class name="org.codetest.testcases.Addition"/>
-            <!--<class name="org.codetest.testcases.Subtraction"/>
+            <class name="org.codetest.testcases.Subtraction"/>
             <class name="org.codetest.testcases.Multiplication"/>
-            <class name="org.codetest.testcases.Division"/>-->
+            <class name="org.codetest.testcases.Division"/>
         </classes>
     </test>
 </suite>
